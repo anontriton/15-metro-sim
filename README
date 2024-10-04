@@ -1,11 +1,4 @@
-/**********************************************************
-* Project 1: Metro Simulator
-* CS 15
-* README
-*
-*********************************************************/
 
-Compile/run:
      - Compile using
             make MetroSim
      - run executable with
@@ -80,6 +73,3 @@ I hope to figure this out soon and submit it then.
 Another challenge was learning the functions and syntax for vectors and figuring
  out how to implement them into the PassengerQueue.cpp file, because I had never
   worked with vectors previously.
-
-Time Spent: 
-I spent about 7 hours working on this program.
