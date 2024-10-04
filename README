@@ -1,0 +1,85 @@
+/**********************************************************
+* Project 1: Metro Simulator
+* CS 15
+* README
+*
+*********************************************************/
+
+Compile/run:
+     - Compile using
+            make MetroSim
+     - run executable with
+            ./MetroSim stationsFile passFile [commands]
+
+
+Program Purpose:
+This program is meant to simulate a city's metro system.  There are several 
+classes that contribute to the program. There is a struct for passengers and 
+then there is a PassengerQueue class that is just a vector for ther Passenger 
+struct. The Passenger struct contains integers which correspond to a passenger 
+id, arrival station, and departure station, respectively. In the metro 
+simulation, a train is just a list of PassengerQueues, so in essence, a list of
+lists of passengers. At train stations, the train will drop off all the 
+passengers that are waiting to get off at that station (basically drop off an 
+entire PassengerQueue from the list).
+
+
+Acknowledgements: 
+
+None
+
+
+Files: 
+
+main.cpp:
+     STUDENT TO-DO: Main file should be short and handle simple driver
+     functions such as reading in files.
+
+MetroSim.cpp:
+     STUDENT TO-DO: Implementation of MetroSim class.  Main
+     functionality of running the Metro Simulation, should be able to
+     move trains and deal with passengers going on/off the train.
+
+MetroSim.h:
+     STUDENT TO-DO: Interface of MetroSim class.
+
+stations.txt:
+     an example file containing a list of stations.
+
+test_commands.txt:
+     sample list of commands that you could give to the simulator
+
+the_metroSim:
+     reference implementation for students to see how 
+
+
+Note:  the program should handle all cases.
+
+Data Structures: Vectors/ArrayLists
+
+
+Testing:
+
+Here describe the following: process of testing (unit tests), mention
+of bugs you encountered while testing, mention of testing on inputs of
+different sizes and edge cases, good description of base cases you
+considered while testing. Demonstrate a methodical approach to
+testing.  This section of your REAMDE should be very thorough for
+assignments.
+
+Note: This assignment comes partially implemented, but student must also
+create the driver and add class functionality.
+
+Part that you found most difficult:
+
+The most difficult part that I am still having trouble with is the makefile. I 
+was not able to get a makefile properly working. It compiled and linked my 
+unit_tests file but it was clearly not working when I tried to run unit_tests. 
+I hope to figure this out soon and submit it then.
+
+Another challenge was learning the functions and syntax for vectors and figuring
+ out how to implement them into the PassengerQueue.cpp file, because I had never
+  worked with vectors previously.
+
+Time Spent: 
+I spent about 7 hours working on this program.
